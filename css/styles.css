@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 90px;
+  }
+  
+  td, th {
+    border: 1px solid #312e2e;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  
+  }
+  .toshkent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    width: 900px;
+    text-align: center;
+  }
+  tr:nth-child(2n){
+    background-color: rgba(0, 0, 255, 0.219);
+    color: black;
+  }
+  tr:nth-child(2n-1){
+    background-color: rgba(255, 0, 0, 0.24);
+  }
+  .text{
+    margin-top: 70px;
+    margin-left: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.column{
+    border: 1px solid #312e2e;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    background-color: yellow;  
+    height: 9vh; 
+
+}
+.jadval{
+    height: 20vh;
+}
+.jadval__1{
+    background-color: grey;
+}
+.jadval__2{
+    background-color: rgb(196, 72, 134);
+    height: 20vh;
+}
+.jadval__3{
+    background-color: purple;
+    height: 20vh;
+}
+.jadval__4{
+    background-color: orangered;
+    height: 20vh;
+}
